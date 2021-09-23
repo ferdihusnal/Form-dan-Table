@@ -1,0 +1,51 @@
+<body bgcolor="springgreen"></body>
+<fieldset>
+<h3>User Form</h3>
+
+<form action= "" method="POST">
+<table>
+    <tr>
+        <td>First Name</td>
+        <td><input type="text"></td>
+    </tr>
+    <tr>
+        <td>Password</td>
+        <td><input type="password"></td>
+    </tr>
+    <tr>
+        <td>Gender</td>
+        <td><input type="radio" name="gn"> Male
+            <input type="radio" name="gn"> Female
+        </td>
+    </tr>
+    <tr>
+        <td>Address</td>
+        <td><textarea></textarea></td>
+    </tr>
+    <tr>
+        <td>D.O.B</td>
+        <td><input type="date"></td>
+    </tr>
+    <tr>
+        <td>Select Games</td>
+        <td><input type="checkbox"> Hockey
+            <input type="checkbox"> Football
+            <input type="checkbox"> Cricket
+            <input type="checkbox"> VolleyBall
+        </td>
+    </tr>
+    <tr>
+        <td>Martial Status</td>
+        <td><input type="radio" name="ms"> Married
+            <input type="radio" name="ms"> Unmarried
+        </td>    
+    </tr>
+    <tr>
+        <td></td>
+        <td><input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+        </td>
+    </tr>
+</table>
+</form>
+</fieldset>
